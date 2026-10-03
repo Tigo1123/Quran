@@ -108,6 +108,28 @@ button {
   font-size: 13px;
   color: #9a9c8c;
 }
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.install-button {
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 0 11px;
+  border: 1px solid #c9ad6b;
+  border-radius: 3px;
+  background: transparent;
+  color: #345746;
+  font: 600 14px "Tajawal", sans-serif;
+  cursor: pointer;
+}
+.install-button:hover {
+  background: rgba(201, 173, 107, 0.1);
+}
 
 .main-content {
   z-index: 1;
@@ -327,6 +349,15 @@ button {
   color: #846b51;
   text-align: center;
 }
+.offline-note {
+  margin-top: 14px;
+  color: #846b51;
+  text-align: center;
+  font-size: 14px;
+}
+.offline-note p {
+  margin: 0 0 5px;
+}
 .inline-retry {
   border: 0;
   background: none;
@@ -480,6 +511,14 @@ button {
   }
   .top-note {
     font-size: 12px;
+  }
+  .topbar-actions {
+    gap: 8px;
+  }
+  .install-button {
+    min-height: 34px;
+    padding: 0 8px;
+    font-size: 13px;
   }
   .main-content {
     width: calc(100% - 32px);
