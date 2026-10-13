@@ -113,6 +113,21 @@ button {
   align-items: center;
   gap: 18px;
 }
+.lang-button {
+  min-height: 36px;
+  padding: 0 13px;
+  border: 1px solid #c9ad6b;
+  border-radius: 3px;
+  background: transparent;
+  color: #345746;
+  font: 600 14px "Tajawal", sans-serif;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.lang-button:hover {
+  background: #c9ad6b;
+  color: #ffffff;
+}
 .install-button {
   min-height: 36px;
   display: flex;
@@ -293,6 +308,18 @@ button {
   font-weight: 500;
   letter-spacing: 0;
   direction: rtl;
+}
+
+.translation {
+  font-family: "Tajawal", sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #5c6b5e;
+  margin: 0 auto 20px;
+  max-width: 500px;
+  font-style: italic;
+  direction: ltr;
+  text-align: center;
 }
 
 .verse-reference {
